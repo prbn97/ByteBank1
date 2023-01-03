@@ -1,6 +1,6 @@
-﻿namespace ByteBank1.Ententies
-{
-    public class User
-    {
-    }
+﻿namespace ByteBank1.Ententies;
+
+public class User {
+
+
 }

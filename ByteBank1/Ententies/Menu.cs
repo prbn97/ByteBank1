@@ -19,11 +19,11 @@ public class Menu
         Console.WriteLine("   ========================");
         Console.WriteLine("  Selecione uma opção abaixo:");
         Console.WriteLine("   ========================");
-        Console.WriteLine("  1 - Inserir novo usuário\n");
-        Console.WriteLine("  2 - Deletar um usuário\n");
-        Console.WriteLine("  3 - Detalhes de um usuário\n");
-        Console.WriteLine("  4 - Total armazenado no banco\n");
-        Console.WriteLine("  0 - Para sair do programa");
+        Console.WriteLine("   1 - Inserir novo usuário\n");
+        Console.WriteLine("   2 - Deletar um usuário\n");
+        Console.WriteLine("   3 - Detalhes de um usuário\n");
+        Console.WriteLine("   4 - Total armazenado no banco\n");
+        Console.WriteLine("   0 - Para sair do programa");
         Console.WriteLine("   ========================");
         Console.WriteLine();
         Console.Write("  Digite a opção desejada: ");
@@ -43,7 +43,10 @@ public class Menu
 
             case "4": { Console.WriteLine("Deveria estar mostrando o total do Banco!"); break; }
 
-            default: Menu.Show(); break; //repete o menu caso escolha algo fora de 0-4
+            default: { Console.Clear(); Console.WriteLine("\n Opção inválida!"); Thread.Sleep(1000);
+                      Console.WriteLine(" Tente novamente..."); Thread.Sleep(1000); 
+                       Menu.Show(); break; //repete o menu caso escolha algo fora de 0-4
+            }
         }
 
 

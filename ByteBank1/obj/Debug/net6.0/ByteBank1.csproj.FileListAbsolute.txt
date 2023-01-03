@@ -13,3 +13,18 @@ C:\Aulas\Turmas\Sharp Coders\Exercicios\Autorais\ByteBank1\ByteBank1\obj\Debug\n
 C:\Aulas\Turmas\Sharp Coders\Exercicios\Autorais\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.pdb
 C:\Aulas\Turmas\Sharp Coders\Exercicios\Autorais\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.genruntimeconfig.cache
 C:\Aulas\Turmas\Sharp Coders\Exercicios\Autorais\ByteBank1\ByteBank1\obj\Debug\net6.0\ref\ByteBank1.dll
+C:\github\ByteBank1\ByteBank1\bin\Debug\net6.0\ByteBank1.exe
+C:\github\ByteBank1\ByteBank1\bin\Debug\net6.0\ByteBank1.deps.json
+C:\github\ByteBank1\ByteBank1\bin\Debug\net6.0\ByteBank1.runtimeconfig.json
+C:\github\ByteBank1\ByteBank1\bin\Debug\net6.0\ByteBank1.dll
+C:\github\ByteBank1\ByteBank1\bin\Debug\net6.0\ByteBank1.pdb
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.csproj.AssemblyReference.cache
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.AssemblyInfoInputs.cache
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.AssemblyInfo.cs
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.csproj.CoreCompileInputs.cache
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.dll
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\refint\ByteBank1.dll
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.pdb
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\ByteBank1.genruntimeconfig.cache
+C:\github\ByteBank1\ByteBank1\obj\Debug\net6.0\ref\ByteBank1.dll

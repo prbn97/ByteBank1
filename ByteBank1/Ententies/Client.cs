@@ -2,20 +2,17 @@
 
 public class Client {
 
-    public int CPF;
+    public int CPF { get; set; } //atributos ja com os metodos get e set
+    public string Name { get; set; }
+    public string PassWord { get; set; }
 
-    public static void New()
+    public Client(int cpf, string name, string password) //construtor
     {
-        Console.Clear();
-        Console.WriteLine();
-        Console.WriteLine("           BiteBank");
-        Console.WriteLine("   ========================");
-        Console.WriteLine("         Novo usuário");
-
+        CPF = cpf;
+        Name = name;
+        PassWord = password; 
     }
 
 
-
-
-
 }
+

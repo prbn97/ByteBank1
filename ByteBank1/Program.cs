@@ -4,9 +4,10 @@ namespace ByteBank1;
 
 
 
-public class Program { 
-    public static void Main(string[] args) {
+public class Program {
 
+    public static void Intro()
+    {
         Console.WriteLine();
         Console.WriteLine("    Bem vindo ao BiteBank!");
         Console.WriteLine("   ========================");
@@ -17,7 +18,10 @@ public class Program {
         Console.Write("\n   Digite a quantidade de Usuários: ");
         int quantidadeDeUsuarios = int.Parse(Console.ReadLine());
 
-        Thread.Sleep(1000);
+    }
+    public static void Main(string[] args) {
+
+        
         Menu.Show();
 
 

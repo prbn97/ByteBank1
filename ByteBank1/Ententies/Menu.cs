@@ -23,9 +23,8 @@ public class Menu
         Console.WriteLine("   ========================");
         Console.WriteLine("   1 - Acessar Conta\n");
         Console.WriteLine("   2 - Inserir novo usuário\n");
-        Console.WriteLine("   3 - Deletar um usuário\n");
-        Console.WriteLine("   4 - Detalhes de um usuário\n");
-        Console.WriteLine("   5 - Total armazenado no banco\n");
+        Console.WriteLine("   3 - Detalhes de um usuário\n");
+        Console.WriteLine("   4 - Total armazenado no banco\n");
         Console.WriteLine("   0 - Para sair do programa");
         Console.WriteLine("   ========================");
         Console.WriteLine();
@@ -38,22 +37,18 @@ public class Menu
         {
 
             case "1":
-                Console.Clear(); Console.WriteLine("\n**area de loginpara o acesso da conta!**");
+                Console.Clear(); Console.WriteLine("\n  **area de loginpara o acesso da conta!**");
                 Thread.Sleep(2000); ClientMenu.Show(); break;
 
             case "2": 
                 Console.Clear();
-                Thread.Sleep(2000); Client.CreateClient(); ClientMenu.Show(); break;
+                Thread.Sleep(2000); Client.CreateAccount(); ClientMenu.Show(); break; 
 
             case "3": 
-                Console.Clear(); Console.WriteLine("\n Deveria estar deletando um usuário!");
+                Console.Clear(); Console.WriteLine("\n Deveria estar selecionando\n e então detalhando um usario!");
                 Thread.Sleep(2000); Menu.Show(); break; 
 
-            case "4": 
-                Console.Clear(); Console.WriteLine("\n Deveria estar detalhando um usario!");
-                Thread.Sleep(2000); Menu.Show(); break; 
-
-            case "5":
+            case "4":
                 Console.Clear(); Console.WriteLine("\n Deveria estar mostrando o total do Banco!");
                 Thread.Sleep(2000); Menu.Show(); break;
 

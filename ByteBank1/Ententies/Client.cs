@@ -13,11 +13,13 @@ public class Client {
         PassWord = password; 
     }
 
-    public static void CreateClient() {
+    public static void CreateAccount() {
         Console.Clear();
         Console.WriteLine();
         Console.WriteLine("           BiteBank");
         Console.WriteLine("   ========================");
+        Console.WriteLine("     Nova conta, bem vindo!");
+        Console.WriteLine();
         Console.Write("   CPF: ");
         string inputCPF = Convert.ToString(Console.ReadLine());
         Console.Write("   Nome: ");
@@ -32,7 +34,45 @@ public class Client {
     public static void Depositar() { }
     public static void Transferir() { }
 
+    public static void RemoveAccountMenuShow()
+    {
+        Console.Clear();
+        RemoveAccountShowOption();
+        var decision = Console.ReadLine();
 
+        RemoveAccountHandleOption(decision);
+    }
+    public static void RemoveAccountShowOption() {
+
+        string decision;
+
+        Console.Clear();
+        Console.WriteLine();
+        Console.WriteLine("           BiteBank");
+        Console.WriteLine("   ========================");
+        Console.WriteLine("      Confirma exclusão?");
+        Console.WriteLine();
+        Console.WriteLine("     1- Sim       2- Não");
+        Console.Write("   ");
+    }
+
+    public static void RemoveAccountHandleOption(string decision)
+    {
+        
+        switch (decision)
+        {
+            case "1" : Console.WriteLine("\n  *exccluir conta"); Thread.Sleep(2000); Menu.Show(); break;
+            case "2" : ClientMenu.Show(); break;
+            default: 
+                { Console.Clear(); Console.WriteLine("\n Opção inválida!");
+                Thread.Sleep(1000); Console.WriteLine(" Tente novamente...");
+                Thread.Sleep(1000); RemoveAccountShowOption(); break; }
+        }
+        
+       
+
+
+    }
 }
 
 

@@ -19,14 +19,15 @@ internal class ClientMenu {
         Console.Clear();
         Console.WriteLine();
         Console.WriteLine("           BiteBank");
-        Console.WriteLine($"   =={Client.Name}===========");
+        Console.WriteLine("   =={Client.Name}==========");
         Console.WriteLine("   ========================");
         Console.WriteLine("   Saldo da {Client.Saldo}");
         Console.WriteLine("   ========================");
         Console.WriteLine("   1 - Sacar\n");
         Console.WriteLine("   2 - Depositar\n");
         Console.WriteLine("   3 - Tranferir\n");
-        Console.WriteLine("   0 - Sair da conta\n");
+        Console.WriteLine("   4 - Deletar conta\n");
+        Console.WriteLine("   0 - Voltar\n");
         Console.WriteLine("   ========================");
         Console.WriteLine();
         Console.Write("   Digite a opção desejada: ");
@@ -48,6 +49,10 @@ internal class ClientMenu {
             case "3":
                 Console.Clear(); Console.WriteLine("\n Tranferir para outra conta!");
                 Thread.Sleep(2000); ClientMenu.Show(); break;
+
+            case "4":
+                Console.Clear(); 
+                Thread.Sleep(2000); Client.RemoveAccountMenuShow(); ClientMenu.Show(); break;
 
             case "0": Console.Clear(); Menu.Show(); ; break;
 

@@ -18,7 +18,7 @@ public class Client {
         Console.WriteLine();
         Console.WriteLine("           BiteBank");
         Console.WriteLine("   ========================");
-        Console.WriteLine("     Nova conta, bem vindo!");
+        Console.WriteLine("    Nova conta, bem vindo!");
         Console.WriteLine();
         Console.Write("   CPF: ");
         string inputCPF = Convert.ToString(Console.ReadLine());
@@ -53,7 +53,8 @@ public class Client {
         Console.WriteLine("      Confirma exclusão?");
         Console.WriteLine();
         Console.WriteLine("     1- Sim       2- Não");
-        Console.Write("   ");
+        Console.WriteLine();
+        Console.Write("        opção: ");
     }
 
     public static void RemoveAccountHandleOption(string decision)
@@ -66,7 +67,7 @@ public class Client {
             default: 
                 { Console.Clear(); Console.WriteLine("\n Opção inválida!");
                 Thread.Sleep(1000); Console.WriteLine(" Tente novamente...");
-                Thread.Sleep(1000); RemoveAccountShowOption(); break; }
+                Thread.Sleep(1000); RemoveAccountMenuShow(); break; }
         }
         
        

@@ -19,7 +19,7 @@ internal class ClientMenu {
         Console.Clear();
         Console.WriteLine();
         Console.WriteLine("           BiteBank");
-        Console.WriteLine("   ==Client.Nome===========");
+        Console.WriteLine($"   =={Client.Name}===========");
         Console.WriteLine("   ========================");
         Console.WriteLine("   Saldo da {Client.Saldo}");
         Console.WriteLine("   ========================");

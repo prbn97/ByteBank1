@@ -38,12 +38,12 @@ public class Menu
         {
 
             case "1":
-                Console.Clear(); Console.WriteLine("\n Deveria estar validando o acesso da conta!");
+                Console.Clear(); Console.WriteLine("\n**area de loginpara o acesso da conta!**");
                 Thread.Sleep(2000); ClientMenu.Show(); break;
 
             case "2": 
-                Console.Clear();Console.WriteLine("\n Deveria estar criando um usuário!");
-                Thread.Sleep(2000); Menu.Show(); break;
+                Console.Clear();
+                Thread.Sleep(2000); Client.CreateClient(); ClientMenu.Show(); break;
 
             case "3": 
                 Console.Clear(); Console.WriteLine("\n Deveria estar deletando um usuário!");
